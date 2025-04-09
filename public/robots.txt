@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://https://cromax-photography-site.vercel.app/sitemap.xml
