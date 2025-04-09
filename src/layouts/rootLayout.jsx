@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router'
 import NavComponent from '../components/NavComponent'
+import ScrollToTop from '../components/ScrollToTop'
 
 const RootLayout = () => {
     return (
@@ -14,6 +15,7 @@ const RootLayout = () => {
                     <p>Copyright &copy; {new Date().getFullYear()} All rights reserved | This website was made by Cromax</p>
                 </footer>
             </div>
+            <ScrollToTop />
         </div>)
 }
 
