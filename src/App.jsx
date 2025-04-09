@@ -6,6 +6,8 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Picnic from './pages/gallery/Picnic'
+import Funfest from './pages/gallery/Funfest'
+import Bfw from './pages/gallery/Bfw'
 
 const App = () => {
   const router = createBrowserRouter(
@@ -16,6 +18,8 @@ const App = () => {
           <Route path='contact' element={<Contact />} />
           <Route path='services' element={<Services />} />
           <Route path='picnic' element={<Picnic />} />
+          <Route path='funfest' element={<Funfest />} />
+          <Route path='bfw' element={<Bfw />} />
       </Route>
     )
   )
