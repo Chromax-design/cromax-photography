@@ -9,7 +9,7 @@ const bfwEntries = Object.entries(bfwImages);
 const Bfw = () => {
     return (
         <>
-            <Seo title="Benin Fashion Week" description="Benin fashion week page" url="https://cromax-photography-site.vercel.app/bfw" image="https://cromax-photography-site.vercel.app/assets/bfw/bfw 3.jpg" />
+            <Seo title="Benin Fashion Week" description="Benin fashion week page" url="https://cromax-photography-site.vercel.app/bfw" image="https://cromax-photography-site.vercel.app/banners/bfw-banner.jpg" />
             <main className=' my-14 space-y-5 p-3'>
                 <TitleComponent title={'BFW gallery'} />
                 <ImageGallery imageEntries={bfwEntries} />

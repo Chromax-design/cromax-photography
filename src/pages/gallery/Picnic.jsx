@@ -9,7 +9,7 @@ const picnicEntries = Object.entries(picnicImages);
 const Picnic = () => {
   return (
     <>
-    <Seo title="Picnic" description="Picnic page" url="https://cromax-photography-site.vercel.app/picnic" image="https://cromax-photography-site.vercel.app/assets/picnic/picnic 10.jpg" />
+    <Seo title="Picnic" description="Picnic page" url="https://cromax-photography-site.vercel.app/picnic" image="https://cromax-photography-site.vercel.app/banners/picnic-banner.jpg" />
     <main className=' my-14 space-y-5 p-3'>
       <TitleComponent title={'picnic gallery'} />
       <ImageGallery imageEntries={picnicEntries} />

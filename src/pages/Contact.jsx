@@ -7,7 +7,7 @@ import Seo from '../components/Seo'
 const Contact = () => {
   return (
     <>
-    <Seo title="contact" description="Contact page" url="https://cromax-photography-site.vercel.app/contact" image="https://cromax-photography-site.vercel.app/assets/about.jpg" />
+    <Seo title="contact" description="Contact page" url="https://cromax-photography-site.vercel.app/contact" image="https://cromax-photography-site.vercel.app/banners/banner.jpg" />
     <main className='my-14 space-y-5 p-4 lg:p-2 max-w-6xl mx-auto'>
       <TitleComponent title={'Contact'} />
       <section className='max-md:space-y-10 md:grid md:grid-cols-12 gap-10 text-white w-full'>

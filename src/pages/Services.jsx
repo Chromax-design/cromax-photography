@@ -32,7 +32,7 @@ const serviceList = [
 const Services = () => {
   return (
     <>
-      <Seo title="Services" description="Service page" url="https://cromax-photography-site.vercel.app/services" image="https://cromax-photography-site.vercel.app/assets/about.jpg" />
+      <Seo title="Services" description="Service page" url="https://cromax-photography-site.vercel.app/services" image="https://cromax-photography-site.vercel.app/banners/banner.jpg" />
       <main className='my-14 space-y-5 p-4 lg:p-2'>
         <TitleComponent title={'Services'} />
         <section className=' grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-10'>
