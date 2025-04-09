@@ -7,7 +7,7 @@ const NavComponent = () => {
     const pages = [{ title: 'home', link: '/' }, { title: 'about', link: '/about' }, { title: 'services', link: '/services', }, { title: 'contact', link: '/contact' }];
     return (
         <nav className=' flex justify-between items-center text-white px-4 lg:px-2'>
-            <Link className='font-semibold text-4xl capitalize'>cromax</Link>
+            <Link className='font-semibold text-2xl md:text-4xl capitalize'>cromax</Link>
             <ul className=' uppercase max-lg:hidden flex gap-7'>
                 {
                     pages.map((page, i) => <li key={i} className='text-xs tracking-widest '>

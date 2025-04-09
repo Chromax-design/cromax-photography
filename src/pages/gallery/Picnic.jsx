@@ -20,13 +20,22 @@ const Picnic = () => {
             <LightGallery
               speed={500}
               plugins={[lgThumbnail, lgZoom]}
+              download={true}
+              closable={true}
+              mobileSettings={{
+                controls: true, // Enables controls on mobile
+                showCloseIcon: true,
+                download: true,
+              }}
+              preload={2}
             >
               <a href={module.default}>
                 <img
                   key={index}
                   src={module.default}
                   alt={`gallery-${index}`}
-                  className="w-full h-full min-h-80 rounded object-cover object-top saturate-0 group-hover:scale-105 duration-300 ease-in-out group-hover:cursor-pointer group-hover:saturate-100 brightness-90"
+                  className="w-full h-full min-h-80 rounded object-cover object-top saturate-0 group-hover:scale-105 duration-300 ease-in-out group-hover:cursor-pointer group-hover:saturate-100 brightness-90 group-active:saturate-100 group-active:scale-105"
+                  loading='lazy'
                 />
               </a>
             </LightGallery>

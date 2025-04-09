@@ -4,12 +4,12 @@ import { Link } from 'react-router'
 
 const Home = () => {
   return (
-    <main className=' grid grid-cols-3 gap-7 text-white py-4'>
+    <main className=' grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-7 text-white p-4'>
         <div className=' flex justify-center items-center overflow-hidden relative group'>
-            <img src={cover} alt="" className=' object-cover saturate-0 group-hover:saturate-100 group-hover:scale-105 duration-200 ease-in-outs group-hover:brightness-75'/>
+            <img src={cover} alt="" className=' object-cover saturate-0 group-hover:saturate-100 group-hover:scale-105 duration-200 ease-in-outs group-hover:brightness-75 group-active:saturate-100 group-active:scale-105 transition-all'/>
             <div className=' absolute top-0 left-0 h-full w-full flex justify-center items-center flex-col gap-4'>
                 <h2 className='text-4xl capitalize'>picnic</h2>
-                <Link to={'/picnic'} className='uppercase px-6 py-2 text-xs tracking-wider text-white border-2 border-white hover:bg-white hover:text-black'>more photos</Link>
+                <Link to={'/picnic'} className='uppercase px-6 py-2 text-xs tracking-wider text-white border-2 border-white hover:bg-white hover:text-black active:bg-white active:text-black'>more photos</Link>
             </div>
         </div>
         <div>

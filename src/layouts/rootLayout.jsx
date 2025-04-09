@@ -10,7 +10,7 @@ const RootLayout = () => {
                     <NavComponent />
                 </header>
                 <Outlet />
-                <footer className=' text-center text-white/45 py-10'>
+                <footer className='text-xs lg:text-sm text-center text-white/45 py-10'>
                     <p>Copyright &copy; {new Date().getFullYear()} All rights reserved | This website was made by Cromax</p>
                 </footer>
             </div>

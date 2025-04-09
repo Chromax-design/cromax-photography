@@ -38,7 +38,7 @@ const MobileNav = () => {
                     <ul className=' capitalize flex flex-col gap-10 pt-20 px-5'>
                         {
                             pages.map((page, i) => <li key={i} className='text-xl'>
-                                <NavLink to={page.link} className={({ isActive }) => `${isActive ? 'text-red-400' : 'text-black'}`}>
+                                <NavLink to={page.link} className={({ isActive }) => `${isActive ? 'text-red-400' : 'text-black'}`} onClick={closeSideBar}>
                                     {page.title}
                                 </NavLink>
                             </li>)
