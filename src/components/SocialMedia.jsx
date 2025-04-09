@@ -4,11 +4,11 @@ import { FaInstagram, FaLinkedin, FaTiktok, FaWhatsapp } from 'react-icons/fa6'
 const socialLinks = [
     {
         icon: <FaTiktok />,
-        link: "#"
+        link: "https://www.tiktok.com/@cromax_lens?_t=ZM-8vOXbKz1ft7&_r=1"
     },
     {
         icon: <FaWhatsapp />,
-        link: "#"
+        link: "https://wa.me/2349061592634"
     },
     {
         icon: <FaInstagram />,
@@ -16,7 +16,7 @@ const socialLinks = [
     },
     {
         icon: <FaLinkedin />,
-        link: "#"
+        link: "https://www.linkedin.com/in/ifeivbunu-godskey?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSSHhB44YRoajRaQVAthsFQ%3D%3D"
     },
 ]
 

@@ -2,9 +2,12 @@ import React from 'react'
 import TitleComponent from '../components/TitleComponent'
 import SocialMedia from '../components/SocialMedia'
 import InputField from '../components/InputField'
+import Seo from '../components/Seo'
 
 const Contact = () => {
   return (
+    <>
+    <Seo title="contact" description="Contact page" url="https://cromax-photography-site.vercel.app/contact" image="https://cromax-photography-site.vercel.app/assets/about.jpg" />
     <main className='my-14 space-y-5 p-4 lg:p-2 max-w-6xl mx-auto'>
       <TitleComponent title={'Contact'} />
       <section className='max-md:space-y-10 md:grid md:grid-cols-12 gap-10 text-white w-full'>
@@ -27,12 +30,13 @@ const Contact = () => {
           </div>
           <div>
             <h2>Email Address</h2>
-            <p className=' text-white/45'><a href="mailto:chromax.designs@gmail.com">chromax.designs@gmail.com</a></p>
+            <p className=' text-white/45'><a href="mailto:chromax.design@gmail.com">chromax.designs@gmail.com</a></p>
           </div>
           <SocialMedia />
         </div>
       </section>
     </main>
+    </>
   )
 }
 
